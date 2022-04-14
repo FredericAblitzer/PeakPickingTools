@@ -19,6 +19,14 @@ Run .m file.
 
 Input data (input impedance or any FRF) must be provided as a text file containing three columns : frequency, real part, imaginary part. The text file must have .dat or .txt extension.
 
+Results of the identification (natural frequencies, damping ratios, amplitudes) as well as other parameters are stored in a structure named s. Use the following commands to access its content from Matlab command line.
+
+
+```
+>> global s
+>> s
+```
+
 
 ## Miscellaneous
 
